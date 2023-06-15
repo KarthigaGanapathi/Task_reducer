@@ -1,0 +1,51 @@
+.main{
+    height: 80vh;
+    width: 100%;
+    background: #2f2d2d;
+    border-radius: 13px;
+}
+
+h1{
+    font-family: cursive;
+}
+
+.card{
+    margin:5px;
+    cursor:grab;
+    height: 60px;
+    width: 80%;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.left{
+    border: dashed white 2px;
+    border-radius: 40px;
+}
+.toasts{
+    position: absolute;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 10px;
+    right:10px; 
+    z-index: 1;
+    height: 60px;
+    width: 240px;
+    border-radius: 7px;
+    display: none;
+}
+/*.right{
+    border: dashed white 2px;
+    border-radius: 40px;
+}
+.fade{
+    height: 100px;
+}*/
+.left_side{
+    width: 100%;
+    background: red;
+    height: 100%;
+}
